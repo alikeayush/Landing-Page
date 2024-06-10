@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appithub</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <a href="#hero"><img src="source/logo.png" alt="AppithubHub Logo" class="logo"></a>
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+      <nav>
+        <ul class="nav-items">
+          <li><a href="#cta">Get Started</a></li>
+          <li><a href="#projects">Client Projects</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li class="dropdown">
+            <a href="#company" class="dropdown-toggle">Company</a>
+            <ul class="dropdown-content">
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#blogs">Blogs</a></li>
+              <li><a href="#career">Career</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="container">
+      <h1>Welcome to Appit Hub</h1>
+      <p>Your premier destination for digital excellence. As a trusted leader in mobile app development, website creation, SEO, and advertising services, we are dedicated to driving your business forward through unparalleled digital solutions. We take pride in guiding your digital transformation journey, ensuring that your customers are not just users but advocates. Elevate your brand with us, the pinnacle of innovation and customer-centricity in the industry.</p>
+      <button onclick="location.href='#cta'">Get Quote</button>
+    </div>
+  </section>
+
+  <!-- Get Started Section -->
+  <section id="cta" class="section">
+    <div class="container">
+      <div class="cta-content">
+        <div class="cta-form" style="border: 2px solid #0fbc4e;
+        padding: 43px;
+        border-radius: 30px;">
+          <h2>Get Started</h2>
+          <form>
+            <div style="display: flex; flex-direction: column;">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name..." style="width: 100%;">
+            </div>
+            <div style="display: flex; flex-direction: column;">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Your email..." style="width: 100%;">
+            </div>
+            <div style="display: flex; flex-direction: column;">
+              <label for="mobile">Mobile Number <span style="color: red;">*</span></label>
+              <input type="tel" id="mobile" name="mobile" placeholder="Your mobile number..." required maxlength="10" style="width: 100%;">
+            </div>
+            <div style="display: flex; flex-direction: column;">
+              <label for="service">Select Service</label>
+              <select id="service" name="service" style="width: 100%;">
+                <option value="website">Website Creation</option>
+                <option value="ad">Ad Services</option>
+                <option value="app">App Development</option>
+                <option value="seo">SEO Services</option>
+                <option value="tech_consult">Technical Consultation</option>
+              </select>
+            </div>
+            <button type="submit" style="margin-top: 10px;">Get Quote</button>
+          </form>
+        </div>
+        <div class="cta-info">
+          <p>Why Choose Us?</p>
+          <p>At AppIiHub, we offer top-notch services to help your business thrive online. Our expert team specializes in creating stunning websites, effective ad campaigns, and more. We prioritize your business growth and ensure your online presence is optimized for success.</p>
+          <p>Our Policy</p>
+          <p>Our company policy is centered around customer satisfaction, transparency, and innovation. We believe in delivering high-quality services that exceed your expectations while maintaining clear communication and ethical practices. Join us to elevate your business to new heights.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Client Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Recent Projects</h2>
+      <div class="project-container">
+        <div class="project">
+          <img src="source/Wregle.png" alt="Project 1">
+          <a href="https://wergle24.myshopify.com/">Wregle</a>
+        </div>
+        <div class="project">
+          <img src="source/debock.png" alt="Project 2">
+          <a href="https://www.debock.in/">Debock</a>
+        </div>
+        <div class="project">
+          <img src="source/evermore.png" alt="Project 3">
+          <a href="https://evermo0re.shop/">Evermore</a>
+        </div>
+        <div class="project">
+          <img src="source/Fantacy Toys.png" alt="Project 4">
+          <a href="https://fantasytoys.in/">Fantacy Toys</a>
+        </div>
+        <div class="project">
+          <img src="source/Fantacy Toys.png" alt="Project 4">
+          <a href="https://fantasytoys.in/">Fantacy Toys</a>
+        </div>
+        <div class="project">
+          <img src="source/Fantacy Toys.png" alt="Project 4">
+          <a href="https://fantasytoys.in/">Fantacy Toys</a>
+        </div>
+        <div class="project">
+          <img src="source/Fantacy Toys.png" alt="Project 4">
+          <a href="https://fantasytoys.in/">Fantacy Toys</a>
+        </div>
+        <div class="project">
+          <img src="source/Fantacy Toys.png" alt="Project 4">
+          <a href="https://fantasytoys.in/">Fantacy Toys</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Services Section -->
+   <section id="services" class="section">
+    <div class="container">
+      <h2>Services</h2>
+      <div class="services-grid">
+        <div class="service">
+          <img src="source/Service1.png" alt="Website Creation">
+          <div class="service-info">
+            <h3>Website Creation</h3>
+            <p>We provide top-notch website creation services to elevate your online presence.</p>
+            <a href="website_creation.html" class="read-more">Read More &rarr;</a>
+            <a href="index.html#cta" class="consult-now">Consult Now</a>
+          </div>
+        </div>
+        <div class="service">
+          <img src="source/service3.png" alt="Ad Services">
+          <div class="service-info">
+            <h3>Ad Services</h3>
+            <p>Our ad services help you reach a wider audience and grow your business.</p>
+            <a href="ad_services.html" class="read-more">Read More &rarr;</a>
+            <a href="index.html#cta" class="consult-now">Consult Now</a>
+          </div>
+        </div>
+        <div class="service">
+          <img src="source/service4.png" alt="App Development">
+          <div class="service-info">
+            <h3>App Development</h3>
+            <p>We build mobile applications that enhance user experience and drive engagement.</p>
+            <a href="app_development.html" class="read-more">Read More &rarr;</a>
+            <a href="index.html#cta" class="consult-now">Consult Now</a>
+          </div>
+        </div>
+        <div class="service">
+          <img src="source/service2.png" alt="SEO Services">
+          <div class="service-info">
+            <h3>SEO Services</h3>
+            <p>Our SEO experts ensure your website ranks higher in search engine results, attracting more traffic.</p>
+            <a href="seo_services.html" class="read-more">Read More &rarr;</a>
+            <a href="index.html#cta" class="consult-now">Consult Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- Testimonials Section -->
+<section id="testimonials" class="section">
+  <div class="container">
+    <h2>Testimonials</h2>
+    <div class="testimonials-carousel">
+      <button class="testimonial-prev">&laquo;</button>
+      <div class="testimonials-container">
+        <div class="testimonial">
+          <img src="source/testimo.png" alt="Client 1">
+          <div class="testimonial-content">
+            <h3>Client 1</h3>
+            <p>"This is a fantastic service! Highly recommend to anyone looking to improve their online presence."</p>
+          </div>
+        </div>
+        <div class="testimonial">
+          <img src="source/testimo.png" alt="Client 2">
+          <div class="testimonial-content">
+            <h3>Client 2</h3>
+            <p>"Exceptional quality and great support. Couldn't be happier with the results!"</p>
+          </div>
+        </div>
+        <div class="testimonial">
+          <img src="source/testimo.png" alt="Client 3">
+          <div class="testimonial-content">
+            <h3>Client 3</h3>
+            <p>"Amazing service and support. Our online presence has never been better!"</p>
+          </div>
+        </div>
+        <div class="testimonial">
+          <img src="source/testimo.png" alt="Client 4">
+          <div class="testimonial-content">
+            <h3>Client 4</h3>
+            <p>"The team is highly skilled and the results speak for themselves."</p>
+          </div>
+        </div>
+      </div>
+      <button class="testimonial-next">&raquo;</button>
+    </div>
+  </div>
+</section>
+
+  <!-- Company Section -->
+<section id="company" class="section">
+  <div class="container">
+    <h2>Company</h2>
+    <div class="team">
+      <div class="team-member">
+        <img src="source/team.png" alt="Team Member 1">
+        <h3>John Doe</h3>
+        <p>CEO</p>
+      </div>
+      <div class="team-member">
+        <img src="source/team.png"" alt="Team Member 2">
+        <h3>Jane Smith</h3>
+        <p>CTO</p>
+      </div>
+    </div>
+    <div class="about-us">
+      <h3>About Us</h3>
+      <p>Appithub Hub is dedicated to providing top-notch digital solutions. Our team of experts specializes in website creation, ad services, app development, SEO services, and technical consultation. We believe in customer satisfaction, transparency, and innovation. Join us to elevate your business to new heights.</p>
+    </div>
+    <div class="additional-info">
+      <div id="blogs">
+        <h3>Blogs</h3>
+        <p>Read our latest articles and insights on industry trends and best practices.</p>
+      </div>
+      <div id="career">
+        <h3>Career</h3>
+        <p>Join our team and help us build the future of online business solutions.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-about">
+        <img src="source/logo.png" alt="Appithub Hub Logo" class="footer-logo">
+        <h3>About Us</h3>
+        <p>Appithub Hub is dedicated to providing top-notch digital solutions. Our team of experts specializes in website creation, ad services, app development, SEO services, and technical consultation. Join us to elevate your business to new heights.</p>
+      </div>
+      <div class="footer-contact">
+        <h3>Contact Us</h3>
+        <p>
+          <i class="fas fa-map-marker-alt"></i> 123 Digital St, Tech City, 45678<br>
+          <i class="fas fa-phone-alt"></i> +1 (234) 567-8901<br>
+          <i class="fas fa-envelope"></i> info@appithub.com
+        </p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com" target="_blank"><img src="source/linkedin.png" alt="LinkedIn"></a>
+          <a href="https://www.instagram.com" target="_blank"><img src="source/instagram.png" alt="Instagram"></a>
+          <a href="https://www.facebook.com" target="_blank"><img src="source/facebook.png" alt="Facebook"></a>
+          <a href="mailto:info@appithub.com"><img src="source/gmail.png" alt="Gmail"></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Appithub Hub. All rights reserved.</p>
+      <ul class="footer-nav">
+        <li><a href="#cta">Get Started</a></li>
+        <li><a href="#projects">Client Projects</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#company">Company</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

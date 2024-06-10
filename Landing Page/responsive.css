@@ -1,0 +1,87 @@
+/* General styles for mobile responsiveness */
+@media screen and (max-width: 1200px) {
+    /* Hide the desktop navigation and show the hamburger menu */
+    nav ul.nav-items {
+      display: none;
+    }
+  
+    .hamburger {
+      display: block;
+      cursor: pointer;
+    }
+  
+    .nav-items.active {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      background: white;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    }
+  
+    .nav-items.active li {
+      margin: 10px 0;
+    }
+  
+    .nav-items.active a {
+      padding: 10px;
+      display: block;
+    }
+  
+    /* Dropdown menu styles */
+    .dropdown-content {
+      display: none;
+      position: static;
+      box-shadow: none;
+    }
+  
+    .dropdown:hover .dropdown-content {
+      display: none;
+    }
+  
+    .dropdown-toggle {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+    }
+  
+    .dropdown.active .dropdown-content {
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-about, .footer-contact {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .footer-contact p {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .social-icons {
+      justify-content: center;
+    }
+  
+    .footer-nav {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+    }
+  
+    .footer-nav li {
+      margin-bottom: 10px;
+    }
+  }
+  
